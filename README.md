@@ -477,43 +477,27 @@ terraform destroy
 
 ## 📸 Screenshots
 
-### Before Security Fixes
+#### 1. Jenkins Pipeline Success
+![Jenkins Pipeline Success](screenshots/01-pipeline-success.png)
 
-#### 1. Jenkins Pipeline Failure
-![Jenkins Pipeline Failure](screenshots/01-pipeline-failure.png)
-*Pipeline fails at security scan stage due to vulnerabilities*
 
-#### 2. Trivy Security Report
+#### 2. Initial Security Scan (Before)
 ![Trivy Vulnerability Report](screenshots/02-trivy-report.png)
-*Detailed vulnerability report showing critical security issues*
 
-### After Security Fixes
+#### 3. Final Security Scan (After)
+![Trivy Vulnerability Report](screenshots/03-trivy-report.png)
 
-#### 3. Jenkins Pipeline Success
-![Jenkins Pipeline Success](screenshots/03-pipeline-success.png)
-*Pipeline passes all stages after applying security fixes*
+#### 4. Terraform Deployment Outputs
+![Terraform Deployment Outputs](screenshots/04-scan-passed.png)
 
-#### 4. Security Scan Passed
-![Security Scan Passed](screenshots/04-scan-passed.png)
-*No critical vulnerabilities detected*
+#### 5. Application Running on GCP
+![Application on GCP](screenshots/05-app-running.png)
 
-#### 5. Terraform Plan Output
-![Terraform Plan](screenshots/05-terraform-plan.png)
-*Infrastructure plan showing secure resources*
 
-### Deployment
-
-#### 6. Application Running on GCP
-![Application on GCP](screenshots/06-app-running.png)
-*Web application accessible via GCP public IP*
-
-#### 7. GCP Console - Compute Instance
-![GCP Console](screenshots/07-gcp-console.png)
-*Compute Engine instance running in GCP*
 
 ## 🎥 Video Demo
 
-**Video Recording:** [Watch Demo](YOUR_VIDEO_LINK_HERE)
+**Video Recording:** [Watch Demo](https://drive.google.com/file/d/1qH4oycG4Yo_K2NEnXBoucLMBWkrWUMAW/view?usp=sharing)
 
 The 5-10 minute video demonstrates:
 - ✅ Jenkins pipeline execution (both failing and passing)
